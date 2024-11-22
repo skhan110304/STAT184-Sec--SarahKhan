@@ -1,2 +1,15 @@
-# STAT184-HW-Template
- STAT184 Github Day 1 HW Template
+# Introduction
+ This repository explores the popularity trends of selected baby names over time using the BabyNames dataset. The BabyNames Dataset is a built in dataset in the dcData package within R. I took the extra step and went ahead to make it a csv so that I could practice my skills in making various file formats usable within R. I made it into a csv that could then I wrangled with to create a data visualization that centers around the prevalence of a few names. You will find in this repository that I used the csv and then proceeded to work with the data in the coding file. The goal of this repository is to show some of the work I have done so far, and the final work of the class I plan to showcase as well. In terms of the specific assignment,the primary aim of this project was to analyze historical naming patterns for three specific names: Michael, Jennifer, and David. Through data filtering, summarization, and visualization, this analysis uncovers how cultural shifts influenced baby-naming trends from the late 19th century to modern times
+
+# Implementation
+To achieve the code that I have, I took two major steps: Data Preparation and Visualization. For data preparation, I went ahead and filtered the dara to specifically revolve around the names Michael, Jennifer, and David. Then, using the dplyr library, I went ahead and started grouping the dataset to appear by the year and name of the individual. This wau, the total counts and occurrences were calculated condiering the combination of their year and name. When it comes down to visualization, I decided to use the ggplot2 library to make the line graph that allows a display of different lines to track the growth or fall of a certain name prevalence over the years. I made sure to style it minimtally to maintain the visual rules of Klosslyn and Tufte, as simpler is usually better and we are more concerned with getting the right message across instead of a distracting graph. 
+
+I did face a challenge initially about taking care of the null values for certain years in accordance to the name, so I went ahead and used "na.rm = TRUE" so that any missing values were not accounted in the final visualization. Also, I wanted to fix the issue of visual clutter in the graph, especially since lines can tend to overlap if not carefully aligned. Thus, I increased the line thickness and made sure the colors were high in contrast for differentiability.
+
+# Results
+ This is the resulting figure:
+ ![](image.png)
+
+# Conclusion
+We can deduce that the name Michale was loved throughout the 1950's up to the 1990's, maintaining a high level of prevalence through the years. Jennifer had a rise in the 1970's, but then was reduced by a sharp decline, liekly due to a cultural difference that had people not preferring that name as much. Finally, we are left with David, which had a slow rise then fall, but it shows that this name is relatively consistent and continues to be over time.
+If you want to learn more or hear from me,you can contact me at [smk7337@psu.edu](mailto:smk7337@psu.edu). Thank you for reading!
