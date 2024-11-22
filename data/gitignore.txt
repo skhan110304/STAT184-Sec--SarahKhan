@@ -1,0 +1,7 @@
+code/STAT184_GH_1_files
+code/.RData
+code/.Rhistory
+data/iris.data
+data/bezdekIris.data
+data/Index
+data/iris.names
