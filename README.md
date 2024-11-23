@@ -8,7 +8,7 @@ I did face a challenge initially about taking care of the null values for certai
 
 # Results
  This is the resulting figure:
- ![](images/BabyNameResult.jpg)
+ ![](images/BabyNamesResult.jpg)
 
 # Conclusion
 We can deduce that the name Michale was loved throughout the 1950's up to the 1990's, maintaining a high level of prevalence through the years. Jennifer had a rise in the 1970's, but then was reduced by a sharp decline, liekly due to a cultural difference that had people not preferring that name as much. Finally, we are left with David, which had a slow rise then fall, but it shows that this name is relatively consistent and continues to be over time.
